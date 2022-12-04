@@ -9,7 +9,7 @@ line-height: calc(31 / 26);
 color: var(--accent-color);
 }
 
-.logo {
+.header__logo {
  
  padding-top: 24px;
  padding-bottom: 25px;
@@ -19,7 +19,7 @@ color: var(--accent-color);
  color: var(--black-text-color);
 }
 
-.header-nav-link {
+.menu__link {
  font-weight: 500;
  line-height: calc(16 / 14);
  letter-spacing: 0.02em;
@@ -38,7 +38,7 @@ color: var(--accent-color);
 }
 
 
-.header-contact {
+.header__contact {
    
  font-weight: 500;
  line-height: calc(16 / 14);
@@ -53,12 +53,12 @@ color: var(--accent-color);
 
 
 
-.header-nav-link {
+.menu__link {
  position: relative;
  
 }
 
-.header-nav-link.current::after {
+.menu__link.current::after {
  content: '';
 
  position: absolute;
@@ -74,11 +74,11 @@ color: var(--accent-color);
  background-color: var(--accent-color);
 }
 
-.header-list {
+.menu__list {
  margin-left: 50px;
 }
 
-.header-contact {
+.contact__link {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -94,27 +94,27 @@ color: var(--primary-text-color);
 
 
 
-.header-contact-icon
+.contact__icon
 {
  fill: currentColor;
 }
 
 
-.header-nav {
+.menu {
  display: flex;
  gap: 50px;
 }
 
-.header-contacts {
+.contacts {
  display: flex;
 }
 
-.header-container {
+.header__container {
  display: flex;
  align-items: center;
 }
 
-.navigation {
+.header__navigation {
  margin-right: auto;
 }
 
