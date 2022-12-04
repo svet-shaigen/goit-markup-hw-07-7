@@ -1,4 +1,4 @@
-.features-link {
+.group {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,24 +11,24 @@
     border-radius: 4px;
   }
   
-  .features-title {
+  .group__title {
     line-height: calc(16 / 14);
     text-transform: uppercase;
   
     margin-bottom: 10px;
   }
   
-  .features-subtitle {
+  .group__subtitle {
     line-height: calc(24 / 14);
   
     color: var(--primary-text-color);
   }
   
-  .features-lists {
+  .features-list {
     display: flex;
     gap: 30px;
   }
   
-  .features-list {
+  .features-list__item {
     flex-basis: calc((100% - 90px) / 4);
   }

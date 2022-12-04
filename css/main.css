@@ -175,6 +175,7 @@ img {
 
 .contact__icon {
   fill: currentColor;
+  margin-left: 30px;
 }
 
 .menu {
@@ -220,7 +221,7 @@ img {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin: 0 auto;
   font-weight: 900;
@@ -232,7 +233,7 @@ img {
   color: var(--white-text-color);
 }
 
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -253,7 +254,7 @@ img {
   cursor: pointer;
 }
 
-.features-link {
+.group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -271,25 +272,25 @@ img {
   border-radius: 4px;
 }
 
-.features-title {
+.group__title {
   line-height: 1.1428571429;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.features-subtitle {
+.group__subtitle {
   line-height: 1.7142857143;
   color: var(--primary-text-color);
 }
 
-.features-lists {
+.features-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.features-list {
+.features-list__item {
   -ms-flex-preferred-size: calc((100% - 90px) / 4);
       flex-basis: calc((100% - 90px) / 4);
 }
