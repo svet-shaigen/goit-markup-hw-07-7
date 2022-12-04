@@ -19,8 +19,27 @@ color: var(--accent-color);
  color: var(--black-text-color);
 }
 
-.header-nav-link,
+.header-nav-link {
+ font-weight: 500;
+ line-height: calc(16 / 14);
+ letter-spacing: 0.02em;
+ padding-top: 32px;
+ padding-bottom: 32px;
+
+ 
+ color: var(--title-text-color);
+ transition: color 250ms var(--timing-function);
+
+ &:hover,
+ &:focus,
+ &.current {
+ color: var(--accent-color);
+}
+}
+
+
 .header-contact {
+   
  font-weight: 500;
  line-height: calc(16 / 14);
  letter-spacing: 0.02em;
@@ -32,11 +51,7 @@ color: var(--accent-color);
  transition: color 250ms var(--timing-function);
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus,
-.header-nav-link.current {
- color: var(--accent-color);
-}
+
 
 .header-nav-link {
  position: relative;
@@ -64,17 +79,20 @@ color: var(--accent-color);
 }
 
 .header-contact {
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 10px;
- color: var(--primary-text-color);
-}
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+color: var(--primary-text-color);
 
-.header-contact:hover,
-.header-contact:focus {
+&:hover,
+&:focus {
  color: var(--accent-color);
 }
+
+}
+
+
 
 .header-contact-icon
 {

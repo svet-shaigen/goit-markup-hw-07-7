@@ -1,0 +1,34 @@
+.features-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    gap: 30px;
+    margin-bottom: 30px;
+  
+    background-color: var(--team-bg-color);
+    border-radius: 4px;
+  }
+  
+  .features-title {
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+  
+    margin-bottom: 10px;
+  }
+  
+  .features-subtitle {
+    line-height: calc(24 / 14);
+  
+    color: var(--primary-text-color);
+  }
+  
+  .features-lists {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .features-list {
+    flex-basis: calc((100% - 90px) / 4);
+  }

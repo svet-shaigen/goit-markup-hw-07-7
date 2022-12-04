@@ -266,7 +266,7 @@ img {
 
 /* -----------------FEATURES---------------- */
 
-.features-link {
+/*.features-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -299,11 +299,11 @@ img {
 
 .features-list {
   flex-basis: calc((100%-90px) / 4);
-}
+}*/
 
 /* -----------------OCCUPATION---------------- */
 
-.occupation-title {
+/*.occupation-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -337,11 +337,11 @@ img {
 
 .occupation-img-list {
   position: relative;
-}
+}*/
 
 /* -----------------TEAM---------------- */
 
-.team {
+/*.team {
   text-align: center;
 }
 
@@ -424,11 +424,11 @@ img {
 
 .team-subtitle {
   background-color: var(--primary-bg-color);
-}
+}*/
 
 /* -----------------CUSTOMERS---------------- */
 
-.customers-title {
+/*.customers-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -469,11 +469,11 @@ img {
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
   fill: var(--accent-color);
-}
+}*/
 
 /* -----------------FOOTER---------------- */
 
-.footer {
+/*.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--secondary-bg-color);
@@ -627,11 +627,11 @@ footer .container {
 .footer-vector-icon {
   margin-left: 10px;
   fill: var(--primary-bg-color);
-}
+}*/
 
 /* -----------------Modal window---------------- */
 
-.backdrop {
+/*.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -856,11 +856,11 @@ footer .container {
   border: 1px solid transparent;
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
-}
+}*/
 
 /* -----------------PORTFOLIO---------------- */
 
-.filter-btn {
+/*.filter-btn {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -969,4 +969,4 @@ footer .container {
 .project-link:hover .project-top-text,
 .project-link:focus .project-top-text {
   transform: translateY(0);
-}
+}*/
